@@ -1,0 +1,22 @@
+
+.initial-scale{
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+.porto h1{
+    color: var(--purple);
+    font-family: 'Monaco';
+    font-style: normal;
+    font-weight: normal;
+    
+
+}
+.img-char {
+    z-index: -1;
+    padding-left: 100px;
+
+    
+}

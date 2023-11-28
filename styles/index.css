@@ -1,0 +1,41 @@
+
+@import url(header.css);
+@import url(Porto.css);
+@import url(Subscribe.css);
+
+@font-face {
+    font-family: 'Monaco';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Monaco'), url('/Fonts/Monaco.woff') format('woff');
+    }
+    
+
+ *{
+        
+        margin: 0;
+        padding: 0;
+        font-family: 'Monaco';
+        font-weight: normal;
+        text-decoration: none;
+        list-style: none;
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+        color: var(--black);
+        background-color: var(--primary);
+        
+      
+      }
+ 
+:root{
+
+    --primary : #b6ffcb;
+    --primary200: #005500;
+    --light : #FFFFFF;
+    --darkBlue : #18191F;
+    --black : #000000;
+    --purple: #884bff;
+
+  }
+
+ 
