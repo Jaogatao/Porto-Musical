@@ -125,7 +125,6 @@
       top:28px;
       right:24px;
       font-size: 34px;
-      color:var(--primary);
       z-index: 199;
     }
   
@@ -170,7 +169,6 @@
 .has-submenu .submenu {
     display: none;
     position: absolute;
-    background-color: var(--purple);
     z-index: 999;
     padding: 10px;
   }

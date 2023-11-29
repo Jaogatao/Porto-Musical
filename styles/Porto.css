@@ -1,22 +1,14 @@
-
-.initial-scale{
+.img-char img{
     width: 100%;
     height: 100%;
-   
-
+    object-fit: cover;
+    object-position: center;
 }
 
-.porto h1{
-    color: var(--purple);
-    font-family: 'Monaco';
-    font-style: normal;
-    font-weight: normal;
-    
-
-}
-.img-char {
-    z-index: -1;
-    padding-left: 100px;
-
-    
+.inscricoes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
