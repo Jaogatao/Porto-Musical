@@ -2,6 +2,10 @@
 @import url(Porto.css);
 @import url(Subscribe.css);
 @import url(Programacao.css);
+@import url(showcases.css);
+@import url(Endereços.css);
+@import url(Fichatecnica.css);
+@import url(Marcas.css);
 
 @font-face {
     font-family: 'Monaco';

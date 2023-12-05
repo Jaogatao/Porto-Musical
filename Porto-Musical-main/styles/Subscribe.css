@@ -55,3 +55,21 @@
     transform: translateX(12rem) translateY(-12rem);
     z-index: 1;
 }
+
+@media (max-width: 1024px){
+   
+    .dotted .secondary{
+        display: none;
+    } 
+   .inscricoes a{
+        font-size: 80px;
+        font-weight: 70px;
+   }
+}
+
+@media (max-width: 768px ) {
+    .dotted .secondary{
+        display: none;
+    } 
+    
+}
