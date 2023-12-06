@@ -1,10 +1,35 @@
-.programacao h1{
-    color: var(--purple);
+
+#programacao h1{
+    
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
     font-weight: 400;
-    font-size: 90px;
+    font-size: 4rem;
+}
+
+
+.dez-horas{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 10;
+}
+
+.primeiro-texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 5px 10px 5px;
+}
+
+.quatoze-horas{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 10;
 }
 
 .dez-horas h1{

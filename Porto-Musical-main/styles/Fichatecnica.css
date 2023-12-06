@@ -1,25 +1,24 @@
-.fichatecnica{
+#fichatecnica{
         display: flex;
         flex-direction: column;
         margin-top: 50px;
         margin-bottom: 50px;
 }
 
-.fichatecnica h1{
+#fichatecnica h1{
     color: var(--purple);
     font-weight: 400;
     font-size: 96px;
-    margin-left: 85px;
 
 }
 
-.fichatecnica ul{
+#fichatecnica ul{
     color: var(--purple);
     margin-bottom: 20px;
-    margin-left: 85px;
+   
 }
 
-.fichatecnica ul li{
+#fichatecnica ul li{
     color: var(--purple);
     font-weight: 400;
     font-size: 16px;

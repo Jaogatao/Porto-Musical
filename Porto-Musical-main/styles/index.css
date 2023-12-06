@@ -6,6 +6,7 @@
 @import url(Endereços.css);
 @import url(Fichatecnica.css);
 @import url(Marcas.css);
+@import url(Footer.css);
 
 @font-face {
     font-family: 'Monaco';
@@ -26,7 +27,7 @@
         scroll-behavior: smooth;
         box-sizing: border-box;
         color: var(--black);
-        background-color: var(--primary);
+        
         
       
       }
@@ -42,4 +43,42 @@
 
   }
 
+  body{
+    background-color: var(--primary);
+  }
+
+.container{
+  padding: 0 4rem;
+  @media(max-width: 768px){
+    padding: 0 2rem;
+  }
+}
  
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  @media(max-width: 768px){
+   grid-template-columns: 1fr;
+  }
+}
+.grid-container .grid-item p,
+.grid-container .grid-item h3
+{
+  color: var(--purple ) !important;
+}
+
+
+.color-purple{
+  color: var(--purple);
+  
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.divider{
+  margin: 25px 0;
+}
+
