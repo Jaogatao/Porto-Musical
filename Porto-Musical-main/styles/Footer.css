@@ -13,6 +13,7 @@
 
 .section h3 {
     width: 100%;
+    color: var(--purple);
 }
 
 .section img {
@@ -22,5 +23,15 @@
 
 .section {
     max-width: 100%;
+    height: auto;
+}
+
+.container .section:nth-child(3) img{
+    width: 150px;
+    height: auto;
+}
+
+.container .section:nth-child(4) img{
+    width: 120px;
     height: auto;
 }
