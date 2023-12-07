@@ -1,4 +1,26 @@
-.footer-container img {
+.container {
+    display: grid;
+    gap: 20px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.section h3 {
     width: 100%;
-    object-fit: cover;
+}
+
+.section img {
+    max-width: 80%;
+    height: auto;
+}
+
+.section {
+    max-width: 100%;
+    height: auto;
 }
