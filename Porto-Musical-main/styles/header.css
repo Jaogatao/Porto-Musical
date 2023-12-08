@@ -63,8 +63,8 @@
   
   @media (max-width: 768px) {
     .header {
-      align-items: flex-start;
-      height: auto;
+      height: 10vh;
+      align-items: center;
     }
     .mobile-menu div{
       background-color: var(--primary);
@@ -88,10 +88,15 @@
     .header .navigation ul {
         display: flex;
         gap: 150px;
+        margin: auto;
       }
 
     .navigation {
       display: block;
+    }
+
+    .submenu.active ul li {
+        margin-bottom: 40px;
     }
   
   
@@ -188,6 +193,12 @@
   
   .has-submenu .submenu.active li {
     display: block;
+  }
+
+  .has-submenu .submenu li a {
+    font-size: 20px;
+    color: var(--purple);
+    font-weight: bold;
   }
   
   /* ... (resto do seu CSS) ... */
