@@ -26,3 +26,20 @@
 
 }
 
+#ficha-tecnica-title{
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+@media (max-width: 768px) {
+    #fichatecnica h1{
+        margin-left: 0px;
+    }
+    #fichatecnica ul{
+        margin-left: 0px;
+    }
+    #ficha-tecnica-title{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+}

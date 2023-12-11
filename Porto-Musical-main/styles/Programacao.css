@@ -85,7 +85,15 @@
     }
     .dez-horas h1{
         margin-left: 0px;
-    
+    }
+    #programacao h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    #ficha-tecnica{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
     }
 }
 
