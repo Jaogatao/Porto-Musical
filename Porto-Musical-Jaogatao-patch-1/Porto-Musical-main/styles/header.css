@@ -1,0 +1,204 @@
+.header {
+    background-color: var();
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .fixed-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ajuste conforme necessário */
+    /* Adicione qualquer estilo adicional que você desejar */
+    background-color: var(--primary); /* Exemplo de cor de fundo */
+    transition: all 0.3s ease; /* Adicione esta linha para a transição suave */
+  
+  
+  }
+  .fixed-header-animation {
+    box-shadow: 4px 12px 12px rgba(0, 0, 0, 0.089); /* Exemplo de sombra diferente */
+    /* Adicione outros estilos desejados */
+  }
+  .header .logo img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .header .navigation ul {
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+  }
+  
+  .header .navigation ul li a{
+    color: var(--purple);
+    text-transform: capitalize;
+  }
+  
+  .mobile-menu{
+    cursor: pointer;
+  }
+  .header h1{
+    color: var(--purple);
+  }
+  
+  .mobile-menu div{
+    width: 25px;
+    height: 3px;
+    background-color: var(--light);
+    margin: 5px;
+  }
+  
+  .navigation .nav-list img{
+    display: none;
+  }
+  
+  .close-menu{
+    display: none;
+  
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      height: 10vh;
+      align-items: center;
+    }
+    .mobile-menu div{
+      background-color: var(--primary);
+    }
+     .navigation .nav-list {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 100vw;
+      height: 100%;
+      background-color: var(--primary);
+      transform: translateX(-1000px);
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow-y: hidden;
+      z-index: 99;
+      transition: transform 0.3s ease-in;
+      margin: 10px;
+    }
+    .header .navigation ul {
+        display: flex;
+        gap: 150px;
+        margin: auto;
+      }
+
+    .navigation {
+      display: block;
+    }
+
+    .submenu.active ul li {
+        margin-bottom: 40px;
+    }
+  
+  
+    .navigation .nav-list img{
+      position: absolute;
+      top: 12px;
+      left: 24px;
+      display: initial;
+      transform: translateY(18px);
+      width: 80px;
+    }
+  
+    .header .navigation ul li a{
+      font-size: 1.5rem;
+      color: var(--purple);
+    }
+  
+    .nav-list li{
+      margin: left;
+      opacity: 0;
+    }
+  
+    .nav-list.active{
+      transform: translateX(0);
+    }
+  
+    
+    .nav-list.active  .close-menu{
+      display: initial;
+      position: absolute;
+      top:28px;
+      right:24px;
+      font-size: 34px;
+      z-index: 199;
+    }
+  
+    .mobile-menu{
+      position: absolute;
+      display: block;
+      z-index: 299;
+      top: 25px;
+      right: 34px;
+      color: var(--light);
+      font-size: 24px;
+    }
+    @keyframes navLinkFade { 
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .nav-list:not(.active) .nav-links {
+      animation: none;
+      opacity: 1;
+      transform: translateX(0);
+    }
+    .nav-list:not(.active) {
+      transform: translateX(-1000px);
+    }
+  }
+  
+  
+  @media (min-width: 769px) {
+    .mobile-menu {
+      display: none!important; /* Oculta o menu mobile em telas maiores */
+    }
+  }
+
+/* ... (seu CSS existente) ... */
+
+.has-submenu .submenu {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    padding: 10px;
+  }
+  
+  .has-submenu:hover .submenu {
+    display: block;
+  }
+  
+  .submenu li {
+    margin: 5px 0;
+  }
+  
+  /* Oculta os dias inicialmente */
+  .has-submenu .submenu li {
+    display: none;
+  }
+  
+  .has-submenu .submenu.active li {
+    display: block;
+  }
+
+  .has-submenu .submenu li a {
+    font-size: 20px;
+    color: var(--purple);
+    font-weight: bold;
+  }
+  
+  /* ... (resto do seu CSS) ... */
