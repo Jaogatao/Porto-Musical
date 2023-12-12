@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    border-radius: 50px;
   }
   .fixed-header {
     position: fixed;
@@ -31,6 +32,7 @@
     display: flex;
     gap: 30px;
     margin-right: 40px;
+    align-items: center;
   }
   
   .header .navigation ul li a{
@@ -43,6 +45,7 @@
   }
   .header h1{
     color: var(--purple);
+    padding-left: 64px;
   }
   
   .mobile-menu div{
@@ -52,8 +55,18 @@
     margin: 5px;
   }
   
-  .navigation .nav-list img{
+  .navigation .nav-list .music-img-icon{
     display: none;
+  }
+
+  .navigation .nav-list .img-insta img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .navigation .nav-list .img-insta:hover{
+    transform: scale(1.1);
   }
   
   .close-menu{
@@ -98,9 +111,18 @@
     .submenu.active ul li {
         margin-bottom: 40px;
     }
+
+    .header h1{
+      padding-left: 0px;
+    }
+
+   
+    .fab .fa-instagram{
+      font-size: 24px;
+    }
   
   
-    .navigation .nav-list img{
+    .navigation .nav-list .music-img-icon{
       position: absolute;
       top: 12px;
       left: 24px;

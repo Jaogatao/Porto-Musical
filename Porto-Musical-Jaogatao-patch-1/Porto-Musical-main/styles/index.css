@@ -79,3 +79,9 @@
   margin: 25px 0;
 }
 
+.text-hours{
+  color: var(--purple);
+  font-weight: 600;
+  font-size: 24px;
+}
+

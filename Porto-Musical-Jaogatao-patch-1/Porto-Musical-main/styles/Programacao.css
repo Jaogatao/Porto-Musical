@@ -49,6 +49,12 @@
     margin-left: 85px;
 }
 
+.text-hours{
+    color: var(--purple);
+    font-weight: 400;
+    font-size: 16px;
+}
+
 .dez-horas ul li{
     color: var(--purple);
     font-weight: 400;
