@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    gap: 20px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    width: 100%;
+    color: var(--purple);
+}
+
+.section img {
+    max-width: 80%;
+    height: auto;
+}
+
+.section {
+    max-width: 100%;
+    height: auto;
+}
+
+.container .section:nth-child(3) img{
+    width: 150px;
+    height: auto;
+}
+
+.container .section:nth-child(4) img{
+    width: 110px;
+    height: auto;
+}
