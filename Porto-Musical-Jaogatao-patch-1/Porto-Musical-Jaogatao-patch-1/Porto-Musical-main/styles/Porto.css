@@ -18,3 +18,14 @@
     font-size: 96px;
    
 }
+
+@media(max-width: 768px){
+    .title-main{
+        background: url(../img/cadeira_longa_c.svg);
+        background-size: cover ;
+        background-position: center;
+    }
+    .title-main h1{
+        font-size: 48px;
+    }
+}

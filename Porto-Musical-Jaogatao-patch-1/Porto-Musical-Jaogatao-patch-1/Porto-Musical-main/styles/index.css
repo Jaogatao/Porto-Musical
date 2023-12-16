@@ -23,6 +23,7 @@
         font-family: 'Monaco';
         font-weight: normal;
         text-decoration: none;
+        text-transform: uppercase;
         list-style: none;
         scroll-behavior: smooth;
         box-sizing: border-box;
@@ -81,7 +82,15 @@
 
 .text-hours{
   color: var(--purple);
-  font-weight: 600;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 28px;
 }
 
+@media(max-width: 768px){
+  .text-hours{
+    font-size: 25px;
+  }
+  *{
+    overflow-x: hidden;
+  }
+}

@@ -5,24 +5,23 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    border-radius: 50px;
+    border-radius: 15px;
   }
   .fixed-header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1000; /* Ajuste conforme necessário */
-    /* Adicione qualquer estilo adicional que você desejar */
-    background-color: var(--primary); /* Exemplo de cor de fundo */
-    transition: all 0.3s ease; /* Adicione esta linha para a transição suave */
+    z-index: 1000;
+    background-color: var(--primary); 
+    transition: all 0.3s ease; 
   
   
   }
-  .fixed-header-animation {
-    box-shadow: 4px 12px 12px rgba(0, 0, 0, 0.089); /* Exemplo de sombra diferente */
-    /* Adicione outros estilos desejados */
-  }
+  /* .fixed-header-animation {
+    box-shadow: 4px 12px 12px rgba(0, 0, 0, 0.089);
+  } */
+
   .header .logo img {
     width: 80px;
     height: 80px;
