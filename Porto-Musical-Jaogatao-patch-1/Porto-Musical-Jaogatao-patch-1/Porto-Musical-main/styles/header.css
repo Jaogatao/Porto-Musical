@@ -36,6 +36,9 @@
   
   .header .navigation ul li a{
     color: var(--purple);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
     text-transform: capitalize;
   }
   
@@ -44,6 +47,11 @@
   }
   .header h1{
     color: var(--purple);
+    color: var(--purple);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: capitalize;
     padding-left: 64px;
   }
   
@@ -99,7 +107,6 @@
     }
     .header .navigation ul {
         display: flex;
-        gap: 150px;
         margin: auto;
       }
 

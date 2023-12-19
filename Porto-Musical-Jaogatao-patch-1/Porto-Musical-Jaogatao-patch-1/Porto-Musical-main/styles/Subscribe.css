@@ -1,5 +1,5 @@
 .subscribe{
-    width: 50%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,7 +10,7 @@
     color: var(--purple);
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin: 79px;
 }
 
 .inscricoes h2{
@@ -32,18 +32,17 @@
     font-size: 16px;
     font-weight: 400;
     margin: 0 auto;
-    width: 80%;
+    width: 50%;
 }
 
 .subscribe .dotted {
-    margin: 12rem auto;
-    height: 60vh;
+    margin: 10rem auto;
+    height: 80vh;
     width: 100%;
     padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../img/dotted.svg);
     position: relative;
     
 }.subscribe .dotted iframe {
@@ -76,7 +75,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: url(../img/dotted.svg);
         position: relative;
     }
 
@@ -107,7 +105,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: url(../img/dotted.svg);
         position: relative;
     }
 
