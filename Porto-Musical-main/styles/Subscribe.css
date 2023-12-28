@@ -124,5 +124,12 @@
         font-weight: 400;
         margin-bottom: 20px;
     }
+    .subscribe .main-text h3{
+        color: var(--purple);
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0 auto;
+        width: 65%;
+    }
     
 }
